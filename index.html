@@ -9,7 +9,7 @@
     <style>
         header {
             width: 100%;
-            height: 100vh;
+            height: 70vh;
             background: url('Assets/Hero-bg.png');
             background-size: cover;
             font-family: sans-serif;
@@ -20,49 +20,51 @@
             height: 100px;
             display: flex;
             justify-content: space-around;
-            color:blue;
+            color: blue;
             align-items: center;
 
         }
-        .Content{
-            font-size: 15px;
+
+        .Content {
+            font-size: 20px;
             font-weight: 800;
             margin-right: 300px;
 
         }
-        .Button a{
+
+        .Button a {
             text-decoration: none;
-             color: white;
+            color: white;
             padding: 10px 10px;
             font-size: 10px;
-            background:blue;
+            background: blue;
             border-radius: 5px;
         }
-        .h-text{
-            max-width:650px;
+
+        .h-text {
+            max-width: 650px;
             position: absolute;
             text-align: center;
             color: black;
-            top: 50%;
+            top: 40%;
             left: 50%;
-            transform:translate(-50%,-50%);
+            transform: translate(-50%, -50%);
             font-family: raleway;
-            font-size: medium;
+            font-size: 30px;
 
 
         }
-        .h-text a{
+
+        .h-text a {
             text-decoration: none;
             background: blue;
             color: white;
-            border-radius: 6px;
+            border-radius: 9px;
             font-family: open sans;
             padding: 5px 5px;
             font-size: medium;
         }
     </style>
-
-</head>
 
 <body>
     <header>
@@ -74,22 +76,45 @@
                 <a href="">Sign Up</a>
 
             </div>
-        </nav>
+    
         <section class="h-text">
             <h1>Cool Dark Ui Template for <br>
-            Webflow Agencies!</h1>
+                Webflow Agencies!</h1>
 
             <br>
             <a href="">Stay Focused</a>
         </section>
-        <main>
+</nav>
+</header>
 
+        <!-- Banner -->
+        <section class="banner container">
+            <!-- Banner left -->
+            <div>
+                <h1>See it in Action</h1>
+                <p>
+                    Explore the live preview and imagine your <br>
+                    brand in this bold new look.
+                </p>
+                <button class="btn">
+                    Launch Live Preview
+                </button>
+            </div>
+
+            <!-- Banner right -->
+            <img src="./Assets/wc-mini.png" alt="" />
+        </section>
+
+
+
+
+        <main>
         </main>
         <footer>
 
         </footer>
-    </header>
 
 </body>
+</head>
 
 </html>

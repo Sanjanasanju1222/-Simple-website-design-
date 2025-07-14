@@ -1,6 +1,52 @@
- header {
-     width: 100%;
-     height: 100vh;
-     background: url('Assets/Hero-bg.png');
-     background-size: cover;
- }
+* {
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+}
+
+
+
+.pic {
+    width: 500px;
+    height: 250px;
+    border-radius: 30px;
+    margin: 0px 320px 0 800px;
+
+}
+
+.btn {
+    background: blue;
+    color: white;
+    border-radius: 6px;
+    font-family: open sans;
+    padding: 5px 5px;
+    font-size: medium;
+    text-decoration: none;
+    border: none;
+    gap: 0px;
+
+}
+/* banner */
+.banner {
+  background: rgba(254, 234, 233, 0.046);
+  display: flex;
+  justify-content: space-between;
+  gap: 5px;
+  align-items: center;
+  padding:35px;
+  border-radius: 10px;
+}
+.banner h2 {
+  color: rgb(31, 31, 31);
+  font-size: 52px;
+  font-weight: bold;
+}
+.banner p {
+  color: #4e4e4e;
+  max-width: 500px;
+}
+.banner img {
+  width: 300px;
+  height: 250px;
+  border-radius: 30px;
+}
