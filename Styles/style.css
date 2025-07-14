@@ -50,3 +50,60 @@
   height: 250px;
   border-radius: 30px;
 }
+
+  /* about style */
+.Users h2{
+    color: #4e4e4e;
+    font-size: 30px;
+    font-weight: bold;
+
+}
+.Users{
+    border-radius: 30px;
+    text-align: center;
+    padding: 130px 150px;
+    margin-top: 300px;
+    background: #4d47ff2c;
+    max-width: 1000px;
+    max-height: 500px;
+    margin: 0 auto;
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
+    gap: 210px;
+}
+.number{
+    color:blue;
+    font-weight: bold;
+    font-size: 50px;
+}
+.number-description{
+    color: cadetblue;
+
+}
+ .h{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.skill{
+padding: 30px;
+border-radius: 5px;
+box-shadow: 0px 6px 50px 0 rgba(0, 0, 0, 0.103);
+align-items: center;
+margin-top: 120px;
+
+}
+
+.skills {
+    display: flex;
+    margin: 0 120px 0 auto;
+}
+
+
+
+
+
+
